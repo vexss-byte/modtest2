@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "lapergods",
+	"version": "${version}",
+	"name": "Laper Gods - Divine Contracts",
+	"description": "Divine contract RPG system. First deity: Thor.",
+	"authors": [
+		"LAPER"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lapergods.LaperGods"
+		],
+		"client": [
+			"com.lapergods.client.LaperGodsClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
